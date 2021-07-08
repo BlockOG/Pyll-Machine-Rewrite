@@ -1,0 +1,24 @@
+this is an 64x64 Texture pack for Mystic cell machine mod made by
+TSWAB
+dsc: Tswab#5937
+if you want to report a bug with it dm me on dsc
+please do not spread this texturepack as yours
+enjoy!
+
+
+
+
+
+
+
+
+
+
+
+changes V1.2:
+All cell have now 50% thicker shells
+CCWspinner_alt has been repaird as one of its arms was in the wrong place
+Trash cell has been remade
+BGDeafult is now 64x64 not 32x32
+changes v1.3:
+all cells are now facing proper direction
