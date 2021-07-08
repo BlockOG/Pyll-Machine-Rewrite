@@ -1,1 +1,3 @@
-# Pyll-Machine-Rewrite
+# Pyll Machine Rewrite
+
+A rewrite of [Pyll Machine](https://github.com/Waity5/Pyll-Machine) by BlockOG
