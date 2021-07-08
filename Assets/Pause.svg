@@ -6,8 +6,8 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
-   sodipodi:docname="Play.svg"
-   inkscape:export-filename="/home/alex/Pyll Machine Rewrite/Assets/Play.png"
+   sodipodi:docname="Pause.svg"
+   inkscape:export-filename="/home/alex/Pyll Machine Rewrite/Assets/Pause.png"
    inkscape:export-xdpi="96.199997"
    inkscape:export-ydpi="96.199997"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -53,7 +53,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="47.375"
+     inkscape:cx="-34.875"
      inkscape:cy="45.375"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -84,13 +84,14 @@
      transform="translate(-1586.2976,5477.2628)">
     <g
        id="g895"
-       transform="matrix(1.0000016,0,0,1,1.6716994,0)">
+       transform="matrix(1.0000016,0,0,1,1.6716994,0)"
+       style="fill:#ffffff">
       <path
-         style="fill:#000000;stroke-width:2.25938;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:#ffffff;stroke-width:2.25938;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 1600.4115,-5477.2628 v 23.8125 h 6.35 v -23.8125 z"
          id="path836" />
       <path
-         style="fill:#000000;stroke-width:2.25937;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:#ffffff;stroke-width:2.25937;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 1586.2976,-5477.2628 v 23.8125 h 6.35 v -23.8125 z"
          id="rect1953" />
     </g>

@@ -6,8 +6,8 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
-   sodipodi:docname="Pause.svg"
-   inkscape:export-filename="/home/alex/Pyll Machine Rewrite/Assets/Pause.png"
+   sodipodi:docname="Play.svg"
+   inkscape:export-filename="/home/alex/Pyll Machine Rewrite/Assets/Play.png"
    inkscape:export-xdpi="96.199997"
    inkscape:export-ydpi="96.199997"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -85,7 +85,7 @@
      transform="translate(-1586.2976,5454.1686)">
     <path
        sodipodi:type="star"
-       style="fill:#000000;stroke-width:0.148478;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke-width:0.148478;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1945"
        sodipodi:sides="3"
        sodipodi:cx="1592.9642"

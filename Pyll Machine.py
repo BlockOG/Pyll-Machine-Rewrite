@@ -27,15 +27,6 @@ pdestroy = None
 timee = 0
 timeq = 0
 
-def play():
-    pass
-
-def pause():
-    pass
-
-def reset():
-    pass
-
 def update():
     global rotation_pick, cell_pick
     global cells, cell
@@ -186,12 +177,38 @@ show = [
                ),
         ]
 
-play = Button(parent = camera.ui,
-               model = "quad",
-               texture = playButtonTexture,
-               scale = (0.1, 0.1),
-               position = (-0.58, -0.4),
-               on_click = play,
-              )
+class playButton(Button):
+    def __init__(self):
+        super().__init__(
+            model = "quad",
+            texture = playButtonTexture,
+            scale = (0.1, 0.1),
+            position = (-0.82, -0.4),
+            color = color.white,
+        )
+    def input(self, key):
+        if mouse.hovered_entity == self:
+            if key == "left mouse down":
+                global pause
+                pause = pauseButton()
+                destroy(self)
+
+class pauseButton(Button):
+    def __init__(self):
+        super().__init__(
+            model = "quad",
+            texture = pauseButtonTexture,
+            scale = (0.1, 0.1),
+            position = (-0.82, -0.4),
+            color = color.white,
+        )
+    def input(self, key):
+        if mouse.hovered_entity == self:
+            if key == "left mouse down":
+                global play
+                play = playButton()
+                destroy(self)
+
+play = playButton()
 
 app.run()
